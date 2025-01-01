@@ -1,0 +1,26 @@
+.slick-prev {
+    left: 85%;
+    z-index: 5;
+    top:-40px;
+    opacity: 1;
+    /* position: absolute; */
+}
+.slick-next {
+    position: absolute;
+    right: 20px;
+    top:-40px;
+   
+    
+}
+.slick-next::before{
+    display: block;
+    color:rgb(255, 86, 14);
+}
+.slick-prev::before{
+    display: block;
+    color:rgb(220, 74, 12);
+}
+.icon-container .iconData:hover{
+    background-color:#cb8161;
+    color: white;
+}

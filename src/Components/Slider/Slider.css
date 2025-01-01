@@ -1,0 +1,36 @@
+.slick-prev {
+    left: 20px;
+    z-index: 2;
+}
+.slick-next {
+    position: absolute;
+    /* background-color:aqua; */
+    right: 20px;
+    color: black;
+    /* display: none; */
+}
+.slick-next::before{
+    display: none;
+}
+.slick-prev::before{
+    display: none;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 19px;
+    line-height: 20px;
+    position: relative;
+     top: -60px;
+    /* left: 0; */
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+.banner-data button :hover{
+    background-color: aqua;
+}

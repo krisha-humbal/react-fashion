@@ -1,0 +1,6 @@
+.shadow{
+    display: none;
+}
+.imgCon:hover .shadow{
+    display: block;
+}
